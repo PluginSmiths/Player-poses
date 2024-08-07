@@ -1,0 +1,1 @@
+${input$entity}.getPose().toString.equals("${field$pose}")
