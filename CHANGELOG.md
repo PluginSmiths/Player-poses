@@ -1,5 +1,7 @@
 # CHANGELOG
 
+### Version 1.4 changelog:
+ - Procedure "get pose" was remade.
 ### Version 1.3 changelog:
  - Added support for new versions.
  - Added new procedure.
