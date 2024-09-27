@@ -9,6 +9,20 @@
       "type": "input_value",
       "name": "arm",
       "check": "Arms"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "hand",
+      "options": [
+        [
+          "left",
+          "left"
+        ],
+        [
+          "right",
+          "right"
+        ]
+      ]
     }
   ],
   "inputsInline": true,
@@ -24,7 +38,8 @@
       "arm"
     ],
     "fields": [
-      "arm_pose"
+      "arm_pose",
+      "hand"
     ]
   }
 }

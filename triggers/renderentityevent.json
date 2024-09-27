@@ -1,0 +1,34 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "x",
+      "type": "number"
+    },
+    {
+      "name": "y",
+      "type": "number"
+    },
+    {
+      "name": "z",
+      "type": "number"
+    },
+    {
+      "name": "entity",
+      "type": "entity"
+    },
+    {
+      "name": "world",
+      "type": "world"
+    },
+    {
+      "name": "Model",
+      "type": "model"
+    },
+    {
+      "name": "PartialTick",
+      "type": "number"
+    }
+  ],
+  "cancelable": true,
+  "side": "both"
+}

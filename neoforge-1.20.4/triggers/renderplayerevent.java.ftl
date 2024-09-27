@@ -6,12 +6,13 @@ public class ${name}Procedure {
     public static void onEventTriggered(RenderPlayerEvent.Pre event) {
         <#assign dependenciesCode><#compress>
             <@procedureDependenciesCode dependencies, {
-            "x": "(Player) event.getPlayer().getX()",
-            "y": "(Player) event.getPlayer().getY()",
-            "z": "(Player) event.getPlayer().getZ()",
-            "entity": "(Player) event.getPlayer()",
-            "world": "(Player) event.getPlayer().level()",
-            "Arms": "(HumanoidModel) event.getRenderer().getModel()",
+            "x": "(Player) event.getEntityPlayer().getX()",
+            "y": "(Player) event.getEntityPlayer().getY()",
+            "z": "(Player) event.getEntityPlayer().getZ()",
+            "entity": "(Player) event.getEntityPlayer()",
+            "world": "(Player) event.getEntityPlayer().level()",
+            "Model": "(HumanoidModel) event.getRenderer().getModel()",
+            "PartialRenderTick": "event.getPartialRenderTick()",
             "event": "event"
             }/>
         </#compress></#assign>

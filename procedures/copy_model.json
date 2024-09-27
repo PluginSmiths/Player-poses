@@ -1,0 +1,29 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "model",
+      "check": "Model"
+    },
+    {
+      "type": "input_value",
+      "name": "second_model",
+      "check": "Model"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#426d9a",
+  "mcreator": {
+    "toolbox_id": "entitymanagement",
+    "toolbox_init": [
+      "<value name=\"model\"><block type=\"variables_get_model\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>",
+      "<value name=\"second_model\"><block type=\"variables_get_model\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "model",
+      "second_model"
+    ]
+  }
+}

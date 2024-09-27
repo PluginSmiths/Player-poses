@@ -21,8 +21,12 @@
       "type": "world"
     },
     {
-      "name": "Arms",
-      "type": "arms"
+      "name": "Model",
+      "type": "model"
+    },
+    {
+      "name": "PartialRenderTick",
+      "type": "number"
     }
   ],
   "cancelable": true,
