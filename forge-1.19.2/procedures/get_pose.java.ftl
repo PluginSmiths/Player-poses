@@ -1,1 +1,1 @@
-${input$entity}.getPose().toString.equals("${field$pose}")
+${input$entity}.getPose()==Pose.${field$pose}
