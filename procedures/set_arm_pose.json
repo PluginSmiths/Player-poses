@@ -32,7 +32,7 @@
   "mcreator": {
     "toolbox_id": "entitymanagement",
     "toolbox_init": [
-      "<value name=\"arm\"><block type=\"variables_get_arms\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+      "<value name=\"arm\"><block type=\"variables_get_model\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
     ],
     "inputs": [
       "arm"
