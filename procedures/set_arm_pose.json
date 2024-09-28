@@ -8,18 +8,18 @@
     {
       "type": "input_value",
       "name": "arm",
-      "check": "Arms"
+      "check": "model"
     },
     {
       "type": "field_dropdown",
       "name": "hand",
       "options": [
         [
-          "left",
+          "LEFT",
           "left"
         ],
         [
-          "right",
+          "RIGHT",
           "right"
         ]
       ]
