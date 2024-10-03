@@ -22,7 +22,7 @@
     },
     {
       "name": "Model",
-      "type": "model"
+      "type": "Model"
     },
     {
       "name": "PartialRenderTick",
