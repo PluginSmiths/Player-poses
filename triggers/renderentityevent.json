@@ -22,7 +22,7 @@
     },
     {
       "name": "Model",
-      "type": "Model"
+      "type": "model"
     },
     {
       "name": "PartialTick",
