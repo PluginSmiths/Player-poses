@@ -1,0 +1,43 @@
+{
+  "args0": [
+    {
+      "type": "field_data_list_selector",
+      "name": "model_part",
+      "datalist": "model_parts"
+    },
+    {
+      "type": "field_data_list_selector",
+      "name": "coor",
+      "datalist": "parts_coordinates"
+    },
+    {
+      "type": "input_value",
+      "name": "value",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "model",
+      "check": "Model"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#426d9a",
+  "mcreator": {
+    "toolbox_id": "playermanagement",
+    "toolbox_init": [
+      "<value name=\"value\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"model\"><block type=\"variables_get_model\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\"></field></block></value>"
+    ],
+    "inputs": [
+      "value",
+      "model"
+    ],
+    "fields": [
+      "model_part",
+      "coor"
+    ]
+  }
+}
