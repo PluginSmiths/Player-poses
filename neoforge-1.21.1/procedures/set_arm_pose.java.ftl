@@ -1,0 +1,1 @@
+${input$arm}.${field$hand}ArmPose = HumanoidModel.ArmPose.${field$arm_pose};
