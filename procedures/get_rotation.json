@@ -8,7 +8,7 @@
     {
       "type": "field_data_list_selector",
       "name": "coor",
-      "datalist": "part_coordinates"
+      "datalist": "parts_coordinates"
     },
     {
       "type": "input_value",
