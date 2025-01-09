@@ -1,0 +1,29 @@
+{
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "arms",
+      "options": [
+        [
+          "LEFT",
+          "LEFT"
+        ],
+        [
+          "RIGHT",
+          "RIGHT"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "Arm",
+  "colour": "#7d0000",
+  "mcreator": {
+    "toolbox_id": "blockdata",
+    "toolbox_init": [
+    ],
+    "fields": [
+      "arms"
+    ]
+  }
+}

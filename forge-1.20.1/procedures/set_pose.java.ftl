@@ -1,0 +1,1 @@
+${input$entity}.setPose(Pose.${field$pose});

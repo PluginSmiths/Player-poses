@@ -1,1 +1,0 @@
-${input$model}.copyPropertiesTo(${input$second_model});
